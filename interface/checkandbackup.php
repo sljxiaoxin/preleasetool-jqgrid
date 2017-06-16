@@ -59,7 +59,7 @@
 	//$params = "prono=".$projectNo."&taskid=".$taskId."&path=".$filePathT;
 	$params = array(
 		'prono' => $projectNo,
-		'taskid' => $taskid,
+		'taskid' => $taskId,
 		'path' => $filePathT
 	);
 	//1、备份目录检测是否存在，不存在则创建
